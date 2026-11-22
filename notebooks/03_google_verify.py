@@ -16,7 +16,7 @@
 #          workspace.default.facilities_verified         facilities_clean + Google checks + corrections
 #
 #  HOW TO RUN
-#   1. Paste your API key into the "google_api_key" box at the top of the notebook (NOT into the code)
+
 #   2. Leave "limit" = 50 for a first test run -> check results + Google Cloud billing page
 #   3. Set "limit" = 0 to process everything that is left (already-fetched rows are skipped)
 # =====================================================================
