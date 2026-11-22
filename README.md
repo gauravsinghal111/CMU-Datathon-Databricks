@@ -6,11 +6,6 @@ VeriCare finds which Indian hospitals really offer a life-saving service (emerge
 
 Built on Databricks for the CMU Datathon (Fall 2026, healthcare track).
 
-| | |
-|---|---|
-| Demo video (2:30) | *add the YouTube / Drive link here* |
-| Live app (Databricks Apps) | https://carefinder-7474654110161979.aws.databricksapps.com (needs a Databricks workspace login) |
-| Code | this repository: `notebooks/` (data pipeline) and `app/` (Streamlit app) |
 
 ---
 
