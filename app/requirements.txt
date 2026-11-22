@@ -1,0 +1,10 @@
+databricks-sql-connector
+databricks-sdk
+openai
+pandas
+numpy
+plotly>=5.24
+folium
+streamlit>=1.50
+streamlit-folium
+requests

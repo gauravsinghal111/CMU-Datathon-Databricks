@@ -1,0 +1,13 @@
+command: ["streamlit", "run", "app.py"]
+env:
+  - name: DATABRICKS_WAREHOUSE_ID
+    valueFrom: sql-warehouse
+  # Language model for "Ask VeriCare": a Databricks-served foundation model (check Serving in your workspace)
+  - name: LLM_ENDPOINT
+    value: databricks-meta-llama-3-3-70b-instruct
+  # Optional: use Google Gemini instead. Uncomment and set your free key from aistudio.google.com
+  # (better: store it as an app secret and use valueFrom)
+  # - name: GEMINI_API_KEY
+  #   value: "your-key-here"
+  # - name: GEMINI_MODEL
+  #   value: gemini-2.5-flash

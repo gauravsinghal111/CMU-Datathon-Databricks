@@ -1,0 +1,9 @@
+experiment,band_accuracy,notes
+E2  LightGBM: base + 40 text topics (previous best),0.6834629692255665,selective: 80%->73% 70%->75% 60%->76% 50%->78%
+E3  + 100 text topics,0.6990192762935408,selective: 80%->74% 70%->76% 60%->78% 50%->80%
+E4  + facility-name topics,0.6983429151166723,selective: 80%->74% 70%->76% 60%->78% 50%->80%
+E5  + distance to capital / major city,0.7040919851200541,selective: 80%->74% 70%->76% 60%->78% 50%->80%
+"E6  + population, state income, NFHS wealth & literacy",0.7037538045316198,selective: 80%->74% 70%->76% 60%->78% 50%->81%
+E7  logistic regression on full text TF-IDF (C=1.0),0.6936083868785932,selective: 80%->74% 70%->76% 60%->78% 50%->80%
+E8  blend: 0.3 x best tree + 0.7 x text model,0.7071356104159622,selective: 80%->75% 70%->77% 60%->79% 50%->81%
+E9  stacking: text-model probabilities -> LightGBM (nested CV),0.7118701386540413,selective: 80%->76% 70%->78% 60%->79% 50%->81%

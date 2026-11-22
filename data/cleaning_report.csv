@@ -1,0 +1,54 @@
+﻿section,check,count
+A structure,Rows with values in the wrong columns,21
+A structure,Rows with no facility name,65
+A structure,Descriptions that are only directory filler,201
+C postcodes,PIN codes with a usable centre,19363
+B states,Distinct state values before cleaning,253
+B states,States + UTs with facilities (of 36),34
+B states,"Missing (no facilities in data): Ladakh, Lakshadweep",2
+B states,State filled from postcode or coordinates,323
+E location,Location confidence: high,9093
+E location,Location confidence: low,814
+E location,Location confidence: medium,93
+E location,Location confidence: none,88
+E location,Facilities with 0 location source type(s) available,88
+E location,Facilities with 1 location source type(s) available,8
+E location,Facilities with 2 location source type(s) available,214
+E location,Facilities with 3 location source type(s) available,1261
+E location,Facilities with 4 location source type(s) available,2834
+E location,Facilities with 5 location source type(s) available,4253
+E location,Facilities with 6 location source type(s) available,1367
+E location,Facilities with 7 location source type(s) available,63
+E location,Source 'postcode' is part of the agreed location,8954
+E location,Source 'city' is part of the agreed location,8744
+E location,Source 'map' is part of the agreed location,8664
+E location,Source 'text' is part of the agreed location,6764
+E location,Source 'address_pin' is part of the agreed location,1389
+E location,Source 'address' is part of the agreed location,830
+E location,Final location is in a different state than the address,137
+E location,Address city contradicts the location (set to low),472
+F phones,"Facilities with a valid, unshared phone",9642
+F phones,Best phone is shared with 2 facilities,45
+F phones,Best phone is shared with 3+ facilities (directory line),19
+F phones,No valid phone at all,382
+F phones,"Official phone was invalid, another number used",49
+F phones,"Official phone was shared, a unique number used instead",483
+G websites,Official website field that is not a web address,32
+H size,Doctor count of 1 for a hospital treated as unknown,450
+H size,"Doctor count impossible, removed",15
+H size,"Bed count impossible, removed",14
+H size,"Year established impossible, removed",13
+J duplicates,Duplicate records merged into another record,14
+I merge risk,Merge risk: none,5947
+I merge risk,Merge risk: possible,3008
+I merge risk,Merge risk: high,1133
+I merge risk,Signal: listings/text point >100 km away,2239
+I merge risk,Signal: location sources contradict,797
+K search,Records usable in search,9985
+K search,Excluded: No facility name,65
+K search,Excluded: Duplicate of another record,14
+K search,Excluded: No usable location,14
+K search,Excluded: Fields are in the wrong columns,10
+K search,Searchable with location confidence high,9079
+K search,Searchable with location confidence low,813
+K search,Searchable with location confidence medium,93

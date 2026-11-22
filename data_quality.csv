@@ -1,0 +1,10 @@
+﻿check,count
+Total facilities,10088
+Location good (coords match postcode),7594
+Location fair (unverified or postcode only),463
+Location poor (coords far from postcode),1942
+Location unknown,89
+Has doctor count,3630
+Has bed count,2517
+Possible merged / misaligned record,2877
+Source-URL field contains non-URL text,0

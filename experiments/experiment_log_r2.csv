@@ -1,0 +1,5 @@
+experiment,band_accuracy,notes
+E10 E9 + doctor counts from all sources (dataset/text/website),0.7132228610077782,selective: 80%->76% 70%->78% 60%->79% 50%->81%
+E11 ordinal model (small < medium < large),0.7074737910043963,selective: 80%->75% 70%->77% 60%->79% 50%->80%
+"E12 tuned LightGBM (slower, more regularised)",0.7101792357118701,selective: 80%->76% 70%->78% 60%->80% 50%->81%
+E13 average of E10-E12,0.7132228610077782,selective: 80%->76% 70%->78% 60%->80% 50%->81%
